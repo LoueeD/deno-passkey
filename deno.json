@@ -1,0 +1,19 @@
+{
+  "lock": false,
+  "tasks": {
+    "start": "deno run --allow-all --unstable app.ts",
+    "start:watch": "deno run --allow-all --watch=app.ts,index.html --unstable app.ts"
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "imports": {
+    "$std/": "https://deno.land/std@0.198.0/"
+  },
+  "compilerOptions": {
+  }
+}

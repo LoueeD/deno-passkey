@@ -1,0 +1,6 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "nuxt.isNuxtApp": false,
+  "deno.enable": true,
+  "deno.unstable": true
+}
